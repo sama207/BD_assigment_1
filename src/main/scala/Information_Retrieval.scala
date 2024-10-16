@@ -7,25 +7,6 @@ case class WordData(word: String, count: Int, documentList: Array[String])
 object Information_Retrieval {
   def main(args: Array[String]): Unit = {
 
-    //    val inputRDD = sc.textFile("data/documents/*")
-    //    val wordsRDD = inputRDD.flatMap(line => line.split(" "))
-    //    val sortedWordsRDD = wordsRDD
-    //      .map(x => x.replace(",", " ").replace(".", " "))
-    //      .map(x => x.toLowerCase)
-    //      .map(w => (w, 1)).reduceByKey(_ + _)
-    //      .sortBy(word => word._1)
-    //    val sortedWordsRDD = inputRDD
-    //      // split on non-word characters, clean, and lowercase at once
-    //      .flatMap(line => line.toLowerCase.split("[\\W_]+"))
-    //      // split by non-word characters and underscore
-    //      .filter(word => word.nonEmpty) // filter out empty words resulting from splitting
-    //      .map(word => (word, 1)) // create (word, 1) tuples
-    //      .reduceByKey(_ + _) // reduce by key to get word counts
-    //      .sortBy(_._1)
-    //    val firstThree = inputRDD.take(50)
-    //    println(firstThree.mkString(" , "))
-
-
     val conf = new SparkConf().setAppName("ReadMultipleTextFiles").setMaster("local[*]")
     val sc = new SparkContext(conf)
 
@@ -67,6 +48,7 @@ object Information_Retrieval {
 //    )
 
 //    System.exit(0)
+      textFileFormat.saveAsTextFile("data/wholeInvertedIndex")
 
     // Initialize SparkSession
     val spark = SparkSession.builder()
