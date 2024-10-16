@@ -1,0 +1,2 @@
+Apache Mesos is a cluster manager that provides efficient resource isolation and sharing across distributed applications or frameworks.
+It abstracts CPU, memory, storage, and other compute resources away from machines, enabling fault-tolerant and elastic distributed systems.

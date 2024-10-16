@@ -1,0 +1,108 @@
+into, 1, doc5
+is, 12, doc1, doc10, doc2, doc3, doc4, doc5, doc6, doc8, doc9
+isolation, 1, doc8
+it, 6, doc1, doc3, doc4, doc5, doc6, doc8
+its, 1, doc6
+java, 2, doc1, doc9
+kubernetes, 2, doc1, doc5
+language, 4, doc10, doc6, doc9
+large, 4, doc1, doc2, doc3, doc7
+learn, 1, doc4
+learning, 1, doc4
+level, 4, doc1, doc6, doc9
+local, 1, doc3
+logical, 1, doc5
+machine, 1, doc4
+machines, 2, doc3, doc8
+make, 3, doc4, doc5, doc6
+management, 2, doc5
+manager, 1, doc8
+memory, 1, doc8
+mesos, 2, doc1, doc8
+method, 1, doc4
+miners, 1, doc10
+minimal, 1, doc4
+model, 1, doc4
+models, 1, doc3
+modern, 1, doc2
+need, 1, doc2
+object, 2, doc9
+obtaining, 1, doc2
+of, 9, doc2, doc3, doc4, doc5, doc9
+offering, 1, doc3
+on, 2, doc1, doc4
+one, 1, doc9
+open, 2, doc3, doc5
+optimized, 1, doc1
+or, 3, doc1, doc7, doc8
+oriented, 2, doc9
+other, 1, doc8
+patterns, 1, doc4
+privacy, 1, doc7
+processing, 3, doc1, doc3, doc7
+programming, 6, doc10, doc3, doc6, doc9
+provides, 2, doc1, doc8
+purpose, 1, doc9
+python, 2, doc1, doc6
+querying, 1, doc7
+r, 4, doc1, doc10
+rapid, 1, doc6
+refers, 1, doc7
+relevant, 1, doc2
+repositories, 1, doc2
+resource, 1, doc8
+resources, 3, doc2, doc8
+retrieval, 2, doc2
+runs, 1, doc1
+scala, 3, doc1, doc9
+scale, 2, doc1, doc3
+scaling, 1, doc5
+search, 1, doc7
+semantics, 1, doc6
+servers, 1, doc3
+sets, 2, doc3, doc7
+sharing, 2, doc7, doc8
+shortcomings, 1, doc9
+simple, 1, doc3
+single, 1, doc3
+so, 1, doc7
+software, 2, doc10
+source, 2, doc3, doc5
+spark, 2, doc1
+standalone, 1, doc1
+static, 1, doc9
+statistical, 3, doc10
+statisticians, 1, doc10
+storage, 3, doc3, doc7, doc8
+stored, 1, doc2
+strong, 1, doc9
+structures, 1, doc6
+such, 1, doc2
+supported, 1, doc10
+supports, 2, doc1, doc9
+system, 1, doc5
+systems, 3, doc2, doc4, doc8
+that, 8, doc1, doc3, doc4, doc5, doc7, doc8
+the, 7, doc1, doc10, doc2, doc3, doc4, doc9
+thousands, 1, doc3
+to, 6, doc2, doc3, doc7, doc9
+tolerant, 1, doc8
+traditional, 1, doc7
+transfer, 1, doc7
+type, 1, doc9
+typing, 1, doc6
+unified, 1, doc1
+units, 1, doc5
+up, 2, doc3, doc5
+updating, 1, doc7
+used, 2, doc10, doc2
+users, 1, doc2
+using, 1, doc3
+very, 1, doc6
+visualization, 1, doc7
+web, 1, doc2
+which, 1, doc9
+wide, 1, doc2
+widely, 1, doc10
+with, 3, doc4, doc6
+world, 1, doc2

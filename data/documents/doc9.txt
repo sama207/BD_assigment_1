@@ -1,0 +1,2 @@
+Scala is a strong static type general-purpose programming language which supports both object-oriented and functional programming.
+Designed to address the shortcomings of Java, Scala combines object-oriented and functional programming in one concise, high-level language.

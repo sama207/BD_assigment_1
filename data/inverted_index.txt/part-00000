@@ -1,0 +1,92 @@
+a, 8, doc1, doc10, doc2, doc4, doc6, doc8, doc9
+abstracts, 1, doc8
+across, 2, doc3, doc8
+activity, 1, doc2
+address, 1, doc9
+allows, 1, doc3
+among, 1, doc10
+an, 5, doc1, doc2, doc3, doc5
+analysis, 3, doc10, doc4, doc7
+analytical, 1, doc4
+analytics, 1, doc1
+and, 17, doc1, doc10, doc3, doc4, doc5, doc6, doc7, doc8, doc9
+apache, 2, doc1, doc8
+apis, 1, doc1
+application, 2, doc5, doc6
+applications, 3, doc5, doc7, doc8
+are, 3, doc2, doc7
+artificial, 1, doc4
+as, 1, doc2
+attractive, 1, doc6
+automates, 1, doc4
+automating, 1, doc5
+away, 1, doc8
+based, 1, doc4
+big, 2, doc7
+binding, 1, doc6
+both, 1, doc9
+branch, 1, doc4
+building, 1, doc4
+built, 1, doc6
+by, 1, doc10
+can, 1, doc4
+capturing, 1, doc7
+challenges, 1, doc7
+cloud, 1, doc1
+cluster, 1, doc8
+clusters, 1, doc3
+collection, 1, doc2
+combined, 1, doc6
+combines, 1, doc9
+complex, 1, doc7
+computation, 1, doc3
+compute, 1, doc8
+computers, 1, doc3
+computing, 2, doc10
+concise, 1, doc9
+containerized, 1, doc5
+containers, 1, doc5
+cpu, 1, doc8
+data, 14, doc1, doc10, doc3, doc4, doc6, doc7
+decisions, 1, doc4
+deployment, 1, doc5
+designed, 2, doc3, doc9
+developing, 1, doc10
+development, 1, doc6
+discovery, 1, doc5
+distributed, 3, doc3, doc8
+dynamic, 3, doc6
+each, 1, doc3
+easy, 1, doc5
+efficient, 1, doc8
+elastic, 1, doc8
+enabling, 1, doc8
+engine, 2, doc1
+environment, 1, doc10
+execution, 1, doc1
+fault, 1, doc8
+find, 1, doc2
+for, 8, doc1, doc10, doc3, doc5, doc6
+foundation, 1, doc10
+framework, 1, doc3
+frameworks, 1, doc8
+free, 1, doc10
+from, 4, doc2, doc3, doc4, doc8
+functional, 2, doc9
+general, 2, doc1, doc9
+graphics, 1, doc10
+graphs, 1, doc1
+groups, 1, doc5
+hadoop, 2, doc1, doc3
+help, 1, doc2
+high, 4, doc1, doc6, doc9
+human, 1, doc4
+idea, 1, doc4
+identify, 1, doc4
+in, 5, doc1, doc2, doc6, doc9
+inadequate, 1, doc7
+include, 1, doc7
+information, 7, doc2, doc7
+intelligence, 1, doc4
+interpreted, 1, doc6
+intervention, 1, doc4

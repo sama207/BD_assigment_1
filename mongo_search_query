@@ -1,0 +1,24 @@
+db.assigment1.aggregate([
+  {
+$match:{
+word:{
+$in:
+["abstract","across","a"]
+}
+}}, {
+    $group: {
+      _id: null,
+      documentLists: { $push: "$documentList" } // Assume 'documentList' contains arrays to intersect
+    }
+  },
+  // Stage 3: Perform set intersection on the accumulated arrays
+  {
+    $project: {
+      _id: 0,
+      intersection: { $reduce: {
+        input: "$documentLists",
+        initialValue: { $arrayElemAt: ["$documentLists", 0] }, // Start with the first array
+        in: { $setIntersection: ["$$value", "$$this"] } // Intersect the current value with each subsequent array
+      }}
+    }
+    }])

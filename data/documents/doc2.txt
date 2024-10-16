@@ -1,0 +1,2 @@
+Information retrieval is the activity of obtaining information resources relevant to an information need from a collection of information resources.
+Modern information retrieval systems are used to help users find information stored in large repositories, such as the World Wide Web.
