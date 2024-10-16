@@ -47,11 +47,11 @@ object Information_Retrieval {
         s"$word, $count, ${docs.mkString(", ")}" // Create the output string
     }
 
-//    textFileFormat.collect().take(60).foreach(
-//      x => {
-//        println(x)
-//      }
-//    )
+    textFileFormat.collect().take(60).foreach(
+      x => {
+        println(x)
+      }
+    )
 //
 //    System.exit(0)
       textFileFormat.saveAsTextFile("data/wholeInvertedIndex")
@@ -72,7 +72,7 @@ object Information_Retrieval {
     }
     val outputDF = dfRDDFormat.toDF()
     // Show the DataFrame
-//    outputDF.show()
+    outputDF.show()
 
     // Save DataFrame to MongoDB
     outputDF.write
