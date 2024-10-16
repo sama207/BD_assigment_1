@@ -17,6 +17,12 @@ object Information_Retrieval {
       filePath.split("\\.").head
     }
 
+    // Function to extract numeric part from document name
+    def extractNumber(docName: String): Int = {
+      "\\d+".r.findFirstIn(docName).map(_.toInt).getOrElse(0) // Extract number or return 0
+    }
+
+
     val inputRDD = sc.wholeTextFiles("data/documents/*").flatMap {
       case (path, content) => {
         val fileName = getFileName(path)
@@ -32,7 +38,7 @@ object Information_Retrieval {
 
       val formatedData=inputRDD.reduceByKey{
       case ((count1, docs1), (count2, docs2)) =>
-        (count1 + count2, (docs1 ++ docs2).distinct.sorted) // Combine counts and merge document lists
+        (count1 + count2, (docs1 ++ docs2).distinct.sortBy(extractNumber)) // Combine counts and merge document lists
     }.sortBy(tuple => tuple._1)
 
     // Transform the RDD to the desired output format: Word, Count(Word), Document_list
@@ -41,12 +47,12 @@ object Information_Retrieval {
         s"$word, $count, ${docs.mkString(", ")}" // Create the output string
     }
 
-//    outputRDD.collect().take(60).foreach(
+//    textFileFormat.collect().take(60).foreach(
 //      x => {
 //        println(x)
 //      }
 //    )
-
+//
 //    System.exit(0)
       textFileFormat.saveAsTextFile("data/wholeInvertedIndex")
 
